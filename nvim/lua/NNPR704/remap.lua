@@ -15,7 +15,7 @@ vim.keymap.set("n", "<F3>", ":bd!<CR>")
 
 --
 vim.keymap.set('n', '<c-s>', ":w!<CR>")
-vim.keymap.set('n', '<c-q>', ":q!<CR>")
+vim.keymap.set('n', 'qq', ":q!<CR>")
 
 vim.keymap.set({ 'i', 'v', 'n' }, '<c-f>', ":/")
 --vim.keymap.set({'i','v','n'}, '<c-s>', ":s/")
